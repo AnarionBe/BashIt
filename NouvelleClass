@@ -1,0 +1,49 @@
+#!/bin/bash
+
+echo 'Entrer le nom le la Class : '
+read nomClass
+cd "./Class"
+echo "#ifndef		_$nomClass_H_
+#define     _$nomClass_H_
+
+class $nomClass
+{
+	private :
+
+	public :
+	//Constructeurs
+	$nomClass();
+	$nomClass(const $nomClass& data);
+
+	//Destructeur
+	~$nomClass();
+
+	//Setters
+
+	//Getters
+
+	//Méthodes
+
+};
+
+#endif" >> $nomClass.h
+
+echo "#include <stdlib.h>
+#include <iostream>
+#include <cstring>
+#include \"$nomClass.h\"
+
+$nomClass::$nomClass()
+{
+
+}
+
+$nomClass::$nomClass(const $nomClass& data)
+{
+	
+}
+
+$nomClass::~$nomClass()
+{
+
+}" >> $nomClass.cpp

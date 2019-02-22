@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo 'Entrer le nom du projet : '
+read nomProjet
+mkdir "/home/marco/Documents/$nomProjet"
+cd "/home/marco/Documents/$nomProjet"
+echo "#include <stdlib.h>
+#include <stdio.h>
+
+int main()
+{
+	return 0;
+}" >> $nomProjet.c
+
+echo ".SILENT:
+
+LIBRAIRIES = /home/marco/Documents/Librairies
+
+OBJS = ecran.o
+
+CC = g++ -Wall -D LINUX -I \$(LIBRAIRIES) -m64
+$nomProjet:		$nomProjet.c \$(OBJS)
+			echo création de $nomProjet
+			\$(CC) -o $nomProjet $nomProjet.c
+
+Ecran.o: 	\$(LIBRAIRIES)/Ecran.cpp \$(LIBRAIRIES)/Ecran.h
+			echo création de Ecran.o
+			\$(CC) -c \$(LIBRAIRIES)/Ecran.cpp" >> makefile

@@ -1,0 +1,35 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias ll="ls -l --color=auto"
+alias git="hub"
+alias lla="ls -la --color=auto"
+alias gaa="git add ."
+alias ga="git add"
+alias gcm="git commit -m"
+alias nis="npm i -s"
+alias nid="npm i --save-dev"
+alias nu="npm update"
+alias nig="npm i -g"
+alias gp="git push"
+alias gm="git merge"
+alias gck="git checkout"
+alias gb="git branch"
+alias gcb="git checkout -b"
+alias kraken="gitkraken &"
+alias kfc="git pull"
+
+PS1='[\u@\h \W]\$ '
+
+if [ -e ~/.bashrc.aliases ] ; then
+   source ~/.bashrc.aliases
+fi
+
+# >>> Added by cnchi installer
+BROWSER=/usr/bin/chromium
+EDITOR=/usr/bin/nano

@@ -18,3 +18,7 @@ Ce script doit pouvoir être lancé de n'importe où avec la commande "progen". 
     -   [ ] Rendre le script exécutable
     -   [ ] Référencer la commande
     -   [ ] Changer la commande
+
+## Trop facile ?
+
+Si vous êtes en manque de challenge, rien ne vous empêche de vous faire plaisir. Pourquoi pas ne pas faire un script qui vous permettrait de cloner facilement vos repose just en spécifiant son nom ? Libre à vous de faire ce que bon vous semble: la toute puissance de l'indépendance est en vous.

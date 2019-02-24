@@ -1,30 +1,28 @@
 #!/bin/sh
 
+sudo apt-get update && sudo apt-get upgrade
 # Check if everything is install on this computer (on arch)
 install=""
 
-if [ ! curl ];then
-    install+="curl "
+if ! type "curl" > /dev/null; then
+    install="$install curl"
 fi
-if [ ! git ];then
-    install+="git "
+if ! type "git" > /dev/null; then
+    install="$install git" 
 fi
-if [ ! zsh ];then
-    install+="zsh "
+if ! type "wget" > /dev/null; then
+    install="$install wget"
 fi 
-
-if [ ! wget ];then
-    install+="wget "
+if ! type "zsh" > /dev/null; then
+    install="$install zsh"
 fi
 
-install+="powerline-fonts zsh-autosuggestions zsh-syntax-highlighting "
-if [ $install != "" ];then
-    sudo apt-get install $install
-fi
- Get everything we need for oh-my-zsh
- Installation automatique de oh-my-zsh
+sudo apt-get install -y $install
+
+# Get everything we need for oh-my-zsh
+# Installation automatique de oh-my-zsh
 cd 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+"exit" | sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting

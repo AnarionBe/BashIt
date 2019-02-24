@@ -12,6 +12,18 @@ plugins=(
   zsh-autosuggestions
 )
 
+man() {
+    env \
+	      LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+	      LESS_TERMCAP_md=$(printf "\e[1;31m") \
+	      LESS_TERMCAP_me=$(printf "\e[0m") \
+	      LESS_TERMCAP_se=$(printf "\e[0m") \
+	      LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+	      LESS_TERMCAP_ue=$(printf "\e[0m") \
+	      LESS_TERMCAP_us=$(printf "\e[1;36m") \
+	      man "$@"
+}
+
 #POWERLEVEL9K
 
 POWERLEVEL9K_CONTEXT_TEMPLATE='%n'
@@ -55,5 +67,5 @@ POWERLEVEL9K_STATUS_CROSS=true
 source $ZSH/oh-my-zsh.sh
 
 source ~/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

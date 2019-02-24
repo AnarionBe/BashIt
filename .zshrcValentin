@@ -3,7 +3,7 @@ export LANG="en_US.UTF-8"
 export ZSH="/home/${USER}/.oh-my-zsh"
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
-POWERLEVEL9K_MODE="powerline"
+POWERLEVEL9K_MODE="nerdfont-complete"
 
 plugins=(
   git

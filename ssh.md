@@ -22,6 +22,7 @@ En fonction du système d'exploitation du serveur et de vos droits, vous pourrez
 
 ### Exercice sur le serveur
 Pour pouvoir un peu tester, les différentes possibilités, voici quelques petits exercices:
+   
     1. Se connecter en SSH au serveur;
     1. Affichez la version de PHP dans la console du serveur;
     1. Afficher les dossiers à la racine de votre dossier personnelle;

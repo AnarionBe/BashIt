@@ -8,7 +8,7 @@ Nous le savons tous, l'anglais est la langue principale de l'IT.
 Même les cultures aux langages pictographiques utilisent l'anglais.
 Il est donc primodrial de comprendre une partie des termes didiés pour pouvoir mieux s'y retrouver. Voici donc un lexique anglais qui pourra, je l'espère vous aider à comprendre mieux certaines choses.
 
-(Lexique Anglais/Français dans l'IT)[https://www.gregoirenoyelle.com/wp-content/uploads/2010/03/Aide_memoire_informatique-Eng_fr.pdf]
+Lexique Anglais/Français dans l'IT[https://www.gregoirenoyelle.com/wp-content/uploads/2010/03/Aide_memoire_informatique-Eng_fr.pdf]
 
 ## Les commandes Linux
 

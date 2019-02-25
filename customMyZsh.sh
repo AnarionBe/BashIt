@@ -37,7 +37,7 @@ mv PowerlineSymbols.otf ~/.local/share/fonts/
 mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 mv DejaVu\ Sans\ Mono\ Nerd\ Font\ Complete.ttf ~/.config/fontconfig/conf.d/
 
-fc-cache -      f
+fc-cache -f
 
 cp .zshrcValentin ~/.zshrc
 cp .bashrcMarco ~/.bashrc

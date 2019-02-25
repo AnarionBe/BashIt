@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update
 # Check if everything is install on this computer (on arch)
 install=""
 

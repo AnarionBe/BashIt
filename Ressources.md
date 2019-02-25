@@ -8,12 +8,12 @@ Nous le savons tous, l'anglais est la langue principale de l'IT.
 Même les cultures aux langages pictographiques utilisent l'anglais.
 Il est donc primodrial de comprendre une partie des termes didiés pour pouvoir mieux s'y retrouver. Voici donc un lexique anglais qui pourra, je l'espère vous aider à comprendre mieux certaines choses.
 
-(Lexique Anglais/Français dans l'IT)[https://www.gregoirenoyelle.com/wp-content/uploads/2010/03/Aide_memoire_informatique-Eng_fr.pdf]
+[Lexique Anglais/Français dans l'IT](https://www.gregoirenoyelle.com/wp-content/uploads/2010/03/Aide_memoire_informatique-Eng_fr.pdf)
 
 ## Les commandes Linux
 
 Nous allons (ou avons selon le moment ou vous lisez ceci) travaillé en bash. Une petite _Cheat Sheet_ nous sera donc bien plus qu'utile:
-(Cheat Sheet des commandes bash Linux)[https://learncodethehardway.org/unix/bash_cheat_sheet.pdf]
+[Cheat Sheet des commandes bash Linux](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
 
 > Tout ce qui est entre _[...]_ est optionnel.
 > Tout ce qui est entre _<...>_ doit être remplacé par une valeur **Example**: <username> devra être remplacer par votre nom d'utilisateur (attention, retirer les < >).
@@ -25,7 +25,7 @@ VIM est un éditeur très performant, qui, grâce à ces racourcis peut nous fai
 Une alternative est aussi Néovim, cela dit, il utilise les mêmes commandes de bases.
 
 Voici le lien vers une _Cheat Sheet_ très utile pour la gestion de VIM:
-(Cheat Sheet de VIM)[https://www.cs.cmu.edu/~15131/f17/topics/vim/vim-cheatsheet.pdf].
+[Cheat Sheet de VIM](https://www.cs.cmu.edu/~15131/f17/topics/vim/vim-cheatsheet.pdf).
 
 > Nous vous conseillons neovim qui est une amélioration de vim.
 > VSCode possède une extension VIM. Idéal pour débuter.
@@ -36,4 +36,4 @@ GIT est un outil de versionning incroyable, mais il peut être vraiment compliqu
 [Learn Git Branching](https://learngitbranching.js.org/). Cet exercice m'a vraiment aidé dans le début de la formation (j'ai connu ce tutoriel grâce à BeCode).
 
 Ensuite, une petite _Cheat Sheet_ en guise de ressources:
-(Cheat Sheet des commandes GIT)[https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf]
+[Cheat Sheet des commandes GIT](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)

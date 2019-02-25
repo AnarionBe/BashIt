@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sudo apt-get update && sudo apt-get upgrade
-# Check if everything is install on this computer (on arch)
+# Check if everything is install on this computer (on debian)
 install=""
 
 if ! type "curl" > /dev/null; then

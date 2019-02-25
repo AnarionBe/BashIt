@@ -38,3 +38,5 @@ mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 mv 'DejaVu Sans Mono Nerd Font Complete.ttf' ~/.config/fontconfig/conf.d/
 
 fc-cache -vf
+
+cp example.zshrc ~/test/.zshrc

@@ -23,18 +23,18 @@ En fonction du système d'exploitation du serveur et de vos droits, vous pourrez
 ### Exercice sur le serveur
 Pour pouvoir un peu tester, les différentes possibilités, voici quelques petits exercices:
    
-    1. Se connecter en SSH au serveur;
-    1. Affichez la version de PHP dans la console du serveur;
-    1. Afficher les dossiers à la racine de votre dossier personnelle;
-    1. Créer un fichier "info.php" dans le dossier public_html du serveur;
-    1. Ecrire ```php <?php phpinfo(); ?> ``` dans le fichier.
-    1. Allez sur la page que vous venez de créer pour voir les infos php sur votre ordinateur;
-    1. Supprimer le fichier que vous venez de créer;
-    1. Afficher la liste des fichiers contenu dans *public_html* de votre espace;
-    1. Répétez la création d'un fichier mais en **locale** et envoyez le sur le serveur grâce à la commande SCP (pensez à utiliser le man pour comprendre comment cette commande fonctionne) sur le serveur distant et naviguer dessus depuis votre ordinateur.
+    - [ ] Se connecter en SSH au serveur;
+    - [ ] Affichez la version de PHP dans la console du serveur;
+    - [ ] Afficher les dossiers à la racine de votre dossier personnelle;
+    - [ ] Créer un fichier "info.php" dans le dossier public_html du serveur;
+    - [ ] Ecrire ```php <?php phpinfo(); ?> ``` dans le fichier.
+    - [ ] Allez sur la page que vous venez de créer pour voir les infos php sur votre ordinateur;
+    - [ ] Supprimer le fichier que vous venez de créer;
+    - [ ] Afficher la liste des fichiers contenu dans *public_html* de votre espace;
+    - [ ] Répétez la création d'un fichier mais en **locale** et envoyez le sur le serveur grâce à la commande SCP (pensez à utiliser le man pour comprendre comment cette commande fonctionne) sur le serveur distant et naviguer dessus depuis votre ordinateur.
 
-<!-- 
-## Un "remote fodler"
+
+## Un "remote folder"
 > Cette partie est dédiée au personne ayant un niveau un peu plus avancé. Elle est donc optionnelle. Finissez les exercices précédent est plus important.
 
 SSH nous permet aussi de maintenir la connection pour créer un dossier partager. Pour le prochain exercice, je vous invite à consulter ce tutoriel, à comprendre par vous même, et si besoin, nous poser des questions.
@@ -42,7 +42,7 @@ SSH nous permet aussi de maintenir la connection pour créer un dossier partager
 (Tutoriel, monter un dossier distant en utilisant SSH)[https://www.howtogeek.com/howto/ubuntu/how-to-mount-a-remote-folder-using-ssh-on-ubuntu/]
 
 L'idée est de faire en sorte que vous puissiez travailler directement dans un dossier de votre ordinateur et donc que vous puissez simplement en sauvegardant, mettre à jour les fichiers sur le serveur directement.
--->
+
 
 ## Pour les dangers envers l'OS
 Les clés SSH sont en deux parties. La première est privée et la seconde est public. Quand on vous demande votre clé SSH, on vous demande toujours la public.

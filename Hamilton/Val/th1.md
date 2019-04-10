@@ -28,10 +28,10 @@ Oui je vous l'accorde, le man c'est pas visuellement beau. Cependant, les mécha
 
 Je vais donc vous présenter un exemple avec la fonction **ln** et de sa signature dans le man.
 
-*C'est le moment ou je vous présente le man.*
+> *C'est le moment ou je vous présente le man.*
 
 ### Quelques ressources
-Dans l'idée ou le man à une synthaxe d'écriture similaire à beaucoup de langage de programmation, il est assez simple à lire, mais complexe pour des néophytes. Voici donc un petit lien sympa à garder sous la main pour mieux comprendre le man.
+Dans l'idée ou le man à une synthaxe d'écriture similaire à beaucoup de langage de programmation, il est assez simple à lire, mais complexe pour des néophytes. 
 
 Dans un manque de temps par rapport à ce que nous voulions vous proposer comme matière, et parce que je me suis probablement perdu dans ma ligne directrice, car je divague beaucoup, voici quelques ressources utiles:
 >  => [Man sur Ubuntu](https://doc.ubuntu-fr.org/man)

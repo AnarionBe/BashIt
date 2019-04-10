@@ -37,3 +37,32 @@ Dans un manque de temps par rapport à ce que nous voulions vous proposer comme 
 >  => [Man sur Ubuntu](https://doc.ubuntu-fr.org/man)
 >
 >  => [OpenClassRoom - Lisez le manuel!](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/39740-rtfm-lisez-le-manuel) 
+
+
+## Mais pourquoi tu nous parles du man?
+Nous avons souvent eu des questions sur les commandes, pourquoi elles ne fonctionnaient pas, etc... Dans l'idée ou vous aurez souvent des questions, nous voulions vous montrer comment comprendre par vous même certaines erreurs.
+
+Généralement (j'insiste, ce n'est pas systématiquement, mais celà reste générale), les erreurs sont très explicites. Je vous propose donc, avec la commande GIT, de comprendre les erreurs suivantes.
+
+Essayez donc de taper cette commande, peut importe où:
+```sh
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+```
+Comme vous pouvez le remarquer, je n'ai pas mit le . et ce qu'il m'a renvoyé est une erreur. Dans un premier temps on se dit: 'Zut il c'est passé quoi?', et la panique peut arriver. Je conçois que cet exemple peut paraître un peu simple, MAIS, essayons avec une autre commande: 
+
+```sh
+$ sudo systemctl start UnServiceQuelconque
+Failed to start UnServiceQuelconque.service: Unit UnServiceQuelconque.service not found.
+```
+
+## A votre tour:
+Voici une petite proposition d'exercice (si vous n'avez pas intaller node de manière 'propre', cela génerera une erreur):
+ - Créer un dossier ou vous voulez, il doit tout juste être vide;
+ - Essayer la commande suivante (qui devrait générer une erreur);
+```sh
+$ npm install --save @babel/cli
+```
+- Corriger le problème en lisant l'erreur.
+

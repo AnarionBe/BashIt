@@ -6,4 +6,4 @@ Afficher "Hello world" c'est bien mais ce n'est pas très utile. Nous allon donc
 
 ## One loop to rule them all
 
-Reprenez la variable précédente et mettez là à 0. Par tour de boucle, elle affichera le même texte qu'avant et s'incrémentera de 1. Pensez à lui dire de s'arrêter un jour quand même.
+Placez Maintenant la condition dans un boucle qui va aller de 0 à 15.
